@@ -33,7 +33,7 @@ Esta es una API RESTful desarrollada en Java 17 y Spring Boot para un juego de t
 
 ## Endpoints
 
-![swagger](https://raw.githubusercontent.com/fjmarson/TriviaHalloween/refs/heads/main/src/main/resources/image/Swagger.png?token=GHSAT0AAAAAACZUN6J4TTP27FAF5TBXKIOUZZAY6FA)
+![swagger](https://github.com/fjmarson/TriviaHalloween/blob/main/src/main/resources/images/Swagger.png?raw=true)
 
 ## Gestión de Preguntas
 
