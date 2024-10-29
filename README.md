@@ -23,29 +23,30 @@ Esta es una API RESTful desarrollada en Java 17 y Spring Boot para un juego de t
    git clone https://github.com/tu-usuario/halloween-trivia-api.git
    cd halloween-trivia-api
 
-    Configura el archivo application.properties con los datos de tu base de datos.
+2. Configura el archivo application.properties con los datos de tu base de datos y las variables de entorno.
 
-    Ejecuta el proyecto:
-
-    bash
+3. Ejecuta el proyecto:
 
     ./mvnw spring-boot:run
 
-    Accede a la documentación de la API en http://localhost:8080/swagger-ui.html o en el endpoint configurado.
+4. Accede a la documentación de la API en http://localhost:8080/swagger-ui.html o en el endpoint configurado.
 
-Endpoints
-Gestión de Preguntas
+## Endpoints
+
+![swagger](https://raw.githubusercontent.com/fjmarson/TriviaHalloween/refs/heads/main/src/main/resources/image/Swagger.png?token=GHSAT0AAAAAACZUN6J4TTP27FAF5TBXKIOUZZAY6FA)
+
+## Gestión de Preguntas
 
     POST /api/preguntas - Añadir una nueva pregunta
     GET /api/preguntas - Listar todas las preguntas
     PUT /api/preguntas/{id} - Actualizar una pregunta existente
     DELETE /api/preguntas/{id} - Eliminar una pregunta existente
 
-Trivia Aleatoria
+## Trivia Aleatoria
 
     GET /api/preguntas/random/{dificultad} - Obtener una lista aleatoria de preguntas según la dificultad (fácil, medio, difícil)
 
-##Estructura de las Preguntas
+## Estructura de las Preguntas
 
 **Cada pregunta incluye los siguientes campos:**
 
@@ -54,7 +55,7 @@ Trivia Aleatoria
     respuesta: Respuesta correcta de la pregunta.
     dificultad: Nivel de dificultad (fácil, medio, difícil).
 
-##Ejemplo de Uso
+## Ejemplo de Uso
 
 **Agregar una Pregunta**
 POST /api/preguntas
@@ -69,21 +70,21 @@ Content-Type: application/json
 **Obtener Preguntas Aleatorias por Dificultad**
 GET /api/preguntas/random/medio
 
-##Documentación de la API
+## Documentación de la API
 
 **La API está documentada con Swagger. Puedes acceder a la documentación completa en:**
 
     Swagger UI: http://localhost:8080/swagger-ui.html
     OpenAPI Spec: http://localhost:8080/v3/api-docs
 
-##Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
     Java 17
     Spring Boot
     Swagger / OpenAPI para la documentación de la API
     Maven
 
-##Contribución
+## Contribución
 
 Si deseas contribuir, por favor abre un pull request o reporta problemas en la sección de issues.
 
