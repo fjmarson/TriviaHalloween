@@ -20,44 +20,6 @@ Esta es una API RESTful desarrollada en Java 17 y Spring Boot para un juego de t
 
 1. Clona este repositorio:
    ```bash
-   https://github.com/fjmarson/TriviaHalloween.git
-
-2. Configura el archivo application.properties con los datos de tu base de datos y configura las variables de entorno.
-
-3. Ejecuta el proyecto:
-
-   ./mvnw spring-boot:run
-   
-5. Accede a la documentación de la API en http://localhost:8080/swagger-ui.html o en el endpoint configurado.
-
-[Swagger](https://github.com/fjmarson/TriviaHalloween/blob/main/src/main/resources/image/Swagger.png?raw=true)
-
-Aquí tienes un ejemplo de README.md para tu API de Trivia de Halloween:
-
-markdown
-
-# 🎃 Halloween Trivia API 🎃
-
-Esta es una API RESTful desarrollada en Java 17 y Spring Boot para un juego de trivia temática de Halloween. La API permite gestionar preguntas y respuestas sobre mitos y leyendas de Halloween, con funcionalidades para agregar, listar y actualizar preguntas, y ofrecer una lista aleatoria de preguntas según el nivel de dificultad.
-
-## Características
-
-- **Gestión de Preguntas**: Endpoints para agregar, listar y actualizar preguntas de trivia.
-- **Niveles de Dificultad**: Las preguntas incluyen un nivel de dificultad (`fácil`, `medio`, `difícil`).
-- **Trivia Aleatoria**: Los usuarios pueden obtener una lista de preguntas aleatorias de acuerdo al nivel de dificultad.
-- **Documentación**: API documentada con Swagger/OpenAPI.
-
-## Requisitos Previos
-
-- **Java 17**
-- **Spring Boot**
-- **Maven** (para la gestión de dependencias)
-- **Base de Datos** (Ej: H2 en memoria para pruebas o MySQL/PostgreSQL para producción)
-
-## Instalación
-
-1. Clona este repositorio:
-   ```bash
    git clone https://github.com/tu-usuario/halloween-trivia-api.git
    cd halloween-trivia-api
 
